@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+body {
+    font-family: 'Sawarabi Gothic', sans-serif;
+    background: url('../img/bg.gif');
+}
+
+img {
+    width: 100%;
+}
+
+/* ヘッダー */
+header {}
+
+/* メイン */
+main {}
+
+/* フッター */
+footer {}
