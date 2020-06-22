@@ -19,7 +19,7 @@ if (is_single_breadcrumbs_position_main_top()) {
 } ?>
 
 <?php //本文テンプレート
-get_template_part('tmp/content'); ?>
+get_template_part('tmp-user/content'); ?>
 
 
 <div class="under-entry-content">
@@ -70,5 +70,3 @@ if (is_single_breadcrumbs_position_main_bottom()) {
 
 <?php //メインカラム追従領域
 get_template_part('tmp/main-scroll'); ?>
-
-test

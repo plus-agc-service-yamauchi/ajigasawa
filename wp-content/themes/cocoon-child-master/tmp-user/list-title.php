@@ -10,7 +10,7 @@ if (!defined('ABSPATH')) {
     exit;
 } ?>
 
-<h1 id="archive-title" class="archive-title"><?php echo get_archive_chapter_text(); ?></h1>
+<h1 id="archive-title" class="archive-title"><?php echo get_post_type_object(get_post_type())->label; ?></h1>
 <?php if (is_search()) {
     get_template_part('searchform');
 } ?>
