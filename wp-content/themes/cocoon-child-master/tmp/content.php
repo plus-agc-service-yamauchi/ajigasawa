@@ -36,10 +36,6 @@ if (!defined('ABSPATH')) {
       } ?>
 
       <header class="article-header entry-header">
-      <div class="top-categories-tags">
-<span class="top-categories"><?php the_category_links(); ?></span>
-<span class="top-tags"><?php the_tag_links(); ?></span>
-</div>
         <h1 class="entry-title" itemprop="headline">
           <?php
           if (is_wpforo_plugin_page()) {
